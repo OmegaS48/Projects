@@ -92,3 +92,45 @@
     color: silver;
 }
 /*box5*/
+span{
+    font-size: 0.8rem;
+}
+.navbox5{
+    font: 1rem;
+    font-weight:700;
+}
+.border2:hover{
+    border:3px solid orange;
+}
+/*box6*/
+
+.box6 i{
+    font-size: 1.5rem;
+    display: flex;
+    margin-left: 0px;
+}
+.box6{
+    font-weight: bolder;
+    display: flex;
+}
+/*panel*/
+.panelall{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.paneloptions a{
+    display: inline;
+    margin-left: 10px;
+}
+.paneloptions{
+    width: 70%;
+    font-size: .85rem;
+}
+.deals{
+    font-size: .9rem;
+    font-weight: 700;
+}
