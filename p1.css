@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #000000;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*amazon*/
+
+.logo{
+    background-image: url("amazon.png");
+    background-size: cover;
+    height: 56px;
+    width: 100%;
+}
+.navlogo{
+    height: 56px;
+    width: 140px;
+}
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/*deliver to india*/
+.p1{
+    font-size: 0.8rem;
+    color:silver;
+    font-weight: bold;
+    padding-left: 15px;
+}
+.p2{
+    font-size: 1rem;
+    color:white;
+    font-weight: bold;
+    padding-left: 3px;
+}
+.addicon{
+    display: flex;
+}
+
+/*search*/
+
+.navsearch{
+    background-color: gold;
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+.search{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #f3f3f3;
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.searchinput{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width:525px;
+    font-size: 1rem;
+    border: none;
+}
+.searchicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    font-size: 1.3rem;
+    background-color: orange;
+    border-bottom-right-radius:3px;
+    border-top-right-radius: 3px;
+    color: #000000;
+}
+/*box4*/
+.language{
+    background-color: inherit;
+    color: silver;
+}
+/*box5*/
