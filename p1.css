@@ -1,3 +1,6 @@
+body{
+    background-color: #9fe6d8;
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -133,4 +136,130 @@ span{
 .deals{
     font-size: .9rem;
     font-weight: 700;
+}
+/*hero section*/
+.herosection{
+    background-image: url("hero1.jpg");
+    height: 600px;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heromessage{
+    height: 50px;
+    width: 80vw;
+    background-color: cyan;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.heromessage a{
+    font-size: 14px;
+    font-weight: bold;
+}
+/*shopsection*/
+.box{
+    height: 400px;
+    width: 20vw;
+    background-color: white;
+    border: 2px solid 9fe6d8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.box2{
+    background-image: url("clothes.png");
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box3{
+    background-image: url("computers.png");
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box4{
+    background-image: url("coding.png");
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box5{
+    background-image: url("cosmetics.png");
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box6{
+    background-image: url("electronics.png");
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box7{
+    background-image: url("books.png");
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box8{
+    background-image: url("films.png");
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box9{
+    background-image: url("furniture.png");
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.shopsection{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.boximage{
+    background-size: cover;
+    height: 300px;
+    margin-top: 10px;
+}
+
+/*footer*/
+
+footer{
+    margin-top: 15px;
+}
+.footpanelone{
+    background-color:#232f2d;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 0.8rem;
+}
+.footpaneltwo{
+    background-color: #232f3e;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footpaneltwo p{
+    background-color: #232f3e;
+    color: white;
+    font-weight: bolder;
+
+}
+ul{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.listtopic{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 10px;
 }
