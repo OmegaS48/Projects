@@ -263,3 +263,37 @@ ul{
     font-size: 20px;
     margin-top: 10px;
 }
+
+
+.footpanelthree
+{
+    background-color: #222f3a;
+    height: 200px;
+    color: white;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+}
+.logo3{
+    background-image:url("logo3.png");
+    height: 57px;
+    width: 164px;
+    background-size: cover;
+    display: flex;
+    align-self: center;
+}
+
+.footpanelfour{
+    background-color: #222f3a;
+    color: white;
+    font-weight: bold;
+    height: 100px;
+    border-top: 1px solid black;
+}
+.pages{
+    text-align: center;
+    padding-top: 25px;
+}
+.copyright{
+    text-align: center;
+}
